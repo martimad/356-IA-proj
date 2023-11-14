@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the text globally */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navigation Bar Styles */
+nav {
+  background-color: #156629;
+  color: #fff;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: #fff;
 }
+
+
+.nutrition-container {
+  padding: 20px;
+}
+
+.fitness-container{
+  padding: 20px;
+}
+
+.timeman-container{
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px; /* Adjust the width as needed */
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+
+/* Body Content Styles 
+body {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}*/
+
+#root {
+  /* Add additional styling for your root element if needed */
+}
+
