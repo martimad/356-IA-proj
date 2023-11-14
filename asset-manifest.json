@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/356-IA-proj/static/css/main.3a6db7dc.css",
+    "main.js": "/356-IA-proj/static/js/main.643f6ff5.js",
+    "index.html": "/356-IA-proj/index.html",
+    "main.3a6db7dc.css.map": "/356-IA-proj/static/css/main.3a6db7dc.css.map",
+    "main.643f6ff5.js.map": "/356-IA-proj/static/js/main.643f6ff5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a6db7dc.css",
+    "static/js/main.643f6ff5.js"
+  ]
+}
