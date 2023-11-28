@@ -3,7 +3,7 @@
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #dde8e0;
   margin: 0;
   padding: 0;
   text-align: center; /* Center the text globally */
@@ -23,12 +23,20 @@ ul {
 }
 
 li {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+ul li.active {
+  background-color: #134f24; /* Change the background color for the active tab */
+}
+
+h1 {
+  font-size: 36px; /* Adjust the font size as needed */
 }
 
 
@@ -47,7 +55,7 @@ a {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: start;
 }
 
 .card {
@@ -62,6 +70,7 @@ a {
 .card h3 {
   font-size: 20px;
   margin: 0;
+  color: #156629;
 }
 
 .card p {
@@ -88,3 +97,76 @@ body {
   /* Add additional styling for your root element if needed */
 }
 
+/* styles.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.widget-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.widget-link {
+  text-decoration: none;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease-in-out;
+  flex: 1; /* Allow each widget to take an equal portion of the container */
+  margin: 0 10px 20px;
+}
+
+.widget:hover {
+  transform: scale(1.05);
+}
+
+.widget h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #156629;
+}
+
+.widget p {
+  font-size: 24px;
+  color: #666;
+}
+
+.secondary-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.secondary-nav button {
+  background-color: #156629; /* Change the background color to your preference */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.secondary-nav button:hover {
+  background-color: #134f24; /* Change the background color on hover */
+}

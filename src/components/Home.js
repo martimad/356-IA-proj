@@ -1,13 +1,57 @@
 // Home.js
+// Home.js
+
+// Home.js
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../App.css'; // Import your CSS file
+
+function Home() {
+  return (
+    <div className="home-container">
+      <h1>Welcome to the BYU Wellness Hub</h1>
+
+      <div className="widget-wrapper">
+        {/* Nutrition Widget */}
+        <Link to="/nutrition" className="widget-link">
+          <div className="widget">
+            <h2>Nutrition</h2>
+            <p>Explore topics related to nutrition and healthy eating habits.</p>
+          </div>
+        </Link>
+
+        {/* Fitness Widget */}
+        <Link to="/fitness" className="widget-link">
+          <div className="widget">
+            <h2>Fitness</h2>
+            <p>Discover various fitness activities and exercise routines.</p>
+          </div>
+        </Link>
+
+        {/* Time Management/Miscellaneous Widget */}
+        <Link to="/time-management" className="widget-link">
+          <div className="widget">
+            <h2>Time Management</h2>
+            <p>Get tips and insights on effective time management strategies.</p>
+          </div>
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+export default Home;
+
+
+/*import React from 'react';
 
 function Home() {
   return (
     <div className="home-container">
       <header>
         <h1>BYU Resources for Physcial Health and Wellness</h1>
-        {/*<p>Your go-to destination for all things amazing!</p> */}
+        {/*<p>Your go-to destination for all things amazing!</p> }
       </header>
       <main>
         <section className="features">
@@ -28,5 +72,6 @@ function Home() {
     </div>
   );
 }
-
+/*
 export default Home;
+*/
